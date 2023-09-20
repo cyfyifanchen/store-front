@@ -66,9 +66,7 @@ const Summary = () => {
       >
         <AlertCircle className="h-4 w-4" />
         <AlertTitle>Payment Unsupported</AlertTitle>
-        <AlertDescription>
-          Checkout isn't support at the moment due to issue with Stripe.
-        </AlertDescription>
+        <AlertDescription>No checkout available at the moment</AlertDescription>
       </Alert>
     </div>
   )
