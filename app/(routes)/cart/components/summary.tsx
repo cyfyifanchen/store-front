@@ -8,6 +8,8 @@ import Button from '@/components/ui/button'
 import Currency from '@/components/ui/currency'
 import useCart from '@/hooks/use-cart'
 import { toast } from 'react-hot-toast'
+import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
+import { AlertCircle, Terminal } from 'lucide-react'
 
 const Summary = () => {
   const searchParams = useSearchParams()
@@ -58,6 +60,16 @@ const Summary = () => {
       >
         Checkout
       </Button>
+      <Alert
+        variant="destructive"
+        className="mt-5"
+      >
+        <AlertCircle className="h-4 w-4" />
+        <AlertTitle>Payment Unsupported</AlertTitle>
+        <AlertDescription>
+          Checkout isn't support at the moment due to issue with Stripe.
+        </AlertDescription>
+      </Alert>
     </div>
   )
 }
