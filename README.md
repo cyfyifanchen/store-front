@@ -1,7 +1,7 @@
 ## Ecommerce Dashboard
 
-Visit dashboard live at https://ecommerce-olive-eight.vercel.app
-Visit storefront live at https://store-front-vert.vercel.app
+- Visit dashboard live at https://ecommerce-olive-eight.vercel.app
+- Visit storefront live at https://store-front-vert.vercel.app
 
 ## Credits:
 
@@ -20,8 +20,10 @@ Visit storefront live at https://store-front-vert.vercel.app
 
 ## Running local
 
-`bun install
-bun run dev`
+```
+bun install
+bun run dev
+```
 
 ## Todos
 
