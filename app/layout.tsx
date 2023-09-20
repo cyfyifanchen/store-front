@@ -8,8 +8,8 @@ import './globals.css'
 const font = Urbanist({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Amazz Fashion',
-  description: 'Amazz Fashion - Your one and only man cave.',
+  title: 'A Fashion Site from Louise Lu',
+  description: 'A Fashion Site from Louise Lu',
 }
 
 export default function RootLayout({
