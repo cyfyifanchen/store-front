@@ -27,26 +27,7 @@ bun run dev
 
 ## Todos
 
-- [] Stripe
 - [x] Adding analytics
-
-## Screenshots for dashboard
-
-### Overview
-
-![Chat](public/dashboard-overview.png)
-
-### Dashboard Billboard
-
-![home](public/dashboard-billboard.png)
-
-### Category
-
-![create](public/dashboard-category.png)
-
-### Product
-
-![create](public/dashboard-product-add.png)
 
 ## Screenshots for storefront
 
