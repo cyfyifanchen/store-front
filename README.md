@@ -1,5 +1,7 @@
 ## Ecommerce Dashboard
 
+![](./public/louiselu-storefront.gif)
+
 - Visit dashboard live at https://ecommerce-olive-eight.vercel.app
 - Visit storefront live at https://store-front-vert.vercel.app
 
@@ -24,25 +26,3 @@
 bun install
 bun run dev
 ```
-
-## Todos
-
-- [x] Adding analytics
-
-## Screenshots for storefront
-
-## Home
-
-![create](public/store-home.png)
-
-## Category
-
-![create](public/store-category-home.png)
-
-## Product
-
-![create](public/store-product.png)
-
-## Cart
-
-![create](public/store-cart.png)
